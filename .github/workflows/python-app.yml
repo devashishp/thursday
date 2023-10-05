@@ -7,6 +7,7 @@ on:
   schedule:
     - cron: '0 0 7 ? * THU *'
     - cron: '0 0 21 ? * THU *'
+    - cron: 0 56 3 ? * THU *
 
 permissions:
   contents: read
